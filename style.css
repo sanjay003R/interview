@@ -1,0 +1,460 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Jaro:opsz@6..72&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.container
+{
+    height: 750px;
+    width: 100%;
+    background-color: #007aff;
+    color: wheat;
+    border-radius: 0 0 60% 10px;
+    font-family: "Roboto", serif;
+}
+.nav img 
+{
+    color: whitesmoke;
+}
+.nav
+{
+    height: 60px;
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+.nav div ul li{
+    list-style-type: none;
+}
+.ul ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+.ul
+{
+    width: 50%;
+}
+.btn 
+{
+    width: 17%;
+}
+.btn1
+{
+    border: none;
+    font-size: 17px;
+    background-color: transparent;
+}
+.btn2
+{
+    width: 50%;
+    height: 35px;
+    background-color: transparent;
+    border-radius: 5px;
+    border-color: whitesmoke;
+}
+.parent
+{
+    height: 580px;
+    width: 100%;
+    display: flex;
+}
+.ch1,.ch2
+{
+    height: 580px;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ch1{
+    width: 60%;
+}
+.in{
+    height: 50px;
+    width: 80%;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+}
+.in input{
+    width: 50%;
+    height: 45px;
+    border: none;
+    background-color: transparent;
+}
+.in input::placeholder{
+    color: white;
+}
+.ch3 
+{
+    width: 70%;
+    margin-left: 15%;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+}
+.ch1 h1 
+{
+    font-size: 45px;
+}
+.in button
+{
+    height: 40px;
+    width: 30%;
+    background-color: green;
+    color: white;
+    border-radius: 12px;
+    border: none;
+}
+.ch2 img {
+    height: 500px;
+}
+.arrow
+{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    color: #007aff;
+    border: none;
+    font-size: 27px;
+    margin-left: 160px;
+}
+@media screen and (max-width: 1210px) and (min-width: 320px) {
+    .container {
+        height: 750px;
+        width: 100%;
+        background-color: #007aff;
+        color: wheat;
+        border-radius: 0 0 50% 10%;
+        font-family: "Roboto", serif;
+    }
+
+    .nav {
+        height: 60px;
+        width: 80%;
+        margin-left: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding-top: 30px;
+    }
+
+    .nav div ul li {
+        list-style-type: none;
+    }
+
+    .ul ul {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .ul {
+        width: 50%;
+    }
+
+    .btn {
+        width: 17%;
+    }
+
+    .btn1 {
+        border: none;
+        font-size: 17px;
+        background-color: transparent;
+    }
+
+    .btn2 {
+        width: 50%;
+        height: 35px;
+        background-color: transparent;
+        border-radius: 5px;
+        border-color: whitesmoke;
+    }
+
+    .parent {
+        height: 580px;
+        width: 100%;
+        display: flex;
+    }
+
+    .ch1, .ch2 {
+        height: 580px;
+        width: 40%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .ch1 {
+        width: 60%;
+    }
+
+    .in {
+        height: 50px;
+        width: 80%;
+        border: 1px solid;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        border-radius: 5px;
+    }
+
+    .in input {
+        width: 50%;
+        height: 45px;
+        border: none;
+        background-color: transparent;
+    }
+
+    .in input::placeholder {
+        color: white;
+    }
+
+    .ch3 {
+        width: 70%;
+        margin-left: 15%;
+        font-size: 25px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ch1 h1 {
+        font-size: 45px;
+    }
+
+    .in button {
+        height: 40px;
+        width: 30%;
+        background-color: green;
+        color: white;
+        border-radius: 12px;
+        border: none;
+    }
+
+    .ch2 img {
+        height: 400px;
+    }
+
+    .arrow {
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        color: #007aff;
+        border: none;
+        font-size: 27px;
+        margin-left: 160px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .nav {
+        width: 85%;
+    }
+
+    .btn {
+        width: 20%;
+    }
+
+    .parent {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .ch1, .ch2 {
+        width: 90%;
+        height: auto;
+    }
+
+    .ch3 {
+        width: 80%;
+        margin-left: 10%;
+        font-size: 22px;
+    }
+
+    .ch1 h1 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .container {
+        height: auto;
+        width: 100%;
+        background-color: #007aff;
+        color: wheat;
+        border-radius: 0 0 30% 10%;
+    }
+
+    .nav {
+        height: 50px;
+        width: 100%;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 10px;
+    }
+
+    .ul {
+        width: 100%;
+    }
+
+    .btn {
+        width: 50%;
+    }
+
+    .ch1, .ch2 {
+        height: auto;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .in {
+        width: 80%;
+        height: 50px;
+        border: 1px solid;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+
+    .in input {
+        width: 70%;
+        height: 45px;
+        border: none;
+        background-color: transparent;
+    }
+
+    .ch3 {
+        width: 90%;
+        margin-left: 5%;
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .ch1 h1 {
+        font-size: 30px;
+    }
+
+    .in button {
+        height: 35px;
+        width: 60%;
+        background-color: green;
+        color: white;
+        border-radius: 12px;
+        border: none;
+    }
+
+    .ch2 img {
+        width: 80%;
+        height: auto;
+    }
+
+    .arrow {
+        height: 50px;
+        width: 50px;
+        font-size: 20px;
+        margin-left: 0;
+        color: #007aff;
+        border: none;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .container {
+        height: auto;
+        width: 100%;
+        background-color: #007aff;
+        color: wheat;
+        border-radius: 0 0 30% 10%;
+    }
+
+    .nav {
+        height: 50px;
+        width: 100%;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 10px;
+    }
+
+    .ul {
+        width: 100%;
+    }
+
+    .btn {
+        width: 50%;
+    }
+
+    .ch1, .ch2 {
+        height: auto;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .in {
+        width: 80%;
+        height: 50px;
+        border: 1px solid;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+
+    .in input {
+        width: 70%;
+        height: 45px;
+        border: none;
+        background-color: transparent;
+    }
+
+    .ch3 {
+        width: 90%;
+        margin-left: 5%;
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .ch1 h1 {
+        font-size: 30px;
+    }
+
+    .in button {
+        height: 35px;
+        width: 60%;
+        background-color: green;
+        color: white;
+        border-radius: 12px;
+        border: none;
+    }
+
+    .ch2 img {
+        width: 80%;
+        height: auto;
+    }
+
+    .arrow {
+        height: 50px;
+        width: 50px;
+        font-size: 20px;
+        margin-left: 0;
+        color: #007aff;
+        border: none;
+    }
+}
+
