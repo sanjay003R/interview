@@ -120,7 +120,7 @@
     font-size: 27px;
     margin-left: 160px;
 }
-@media screen and (max-width: 1210px) and (min-width: 320px) {
+@media screen and (max-width: 909px) and (min-width: 320px) {
     .container {
         height: 750px;
         width: 100%;
@@ -246,7 +246,7 @@
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 800px) {
     .nav {
         width: 85%;
     }
